@@ -1,0 +1,70 @@
+body {
+  font-family: "Gill Sans Extrabold", sans-serif;
+  color: black;
+  overflow: hidden;
+  margin: 0;
+}
+.main-container {
+  text-align: center;
+}
+nav {
+  height: 10vh;
+  font-size: x-large;
+  padding-top: 20px;
+  color: white;
+  background-color: gray;
+}
+main {
+  height: 65vh;
+  margin: auto;
+  max-width: 600px;
+  padding: 1rem;
+}
+
+footer {
+  height: 25vh;
+  margin-bottom: 0;
+  background-color: gray;
+  color: white;
+}
+textarea {
+  box-sizing: border-box;
+  padding: 1rem;
+  display: block;
+  width: 100%;
+  min-height: 20vh;
+  margin-top: 2rem;
+  font-size: medium;
+  font-family: inherit;
+}
+#translate-btn {
+  background-color: gray;
+  color: white;
+  border: none;
+  margin: 1rem 0rem;
+  padding: 1rem 2rem;
+  font-size: large;
+}
+#translate-output {
+  box-sizing: border-box;
+  text-align: left;
+  padding: 1rem;
+  width: 100%;
+  min-height: 15vh;
+  overflow: scroll;
+  border: 1px solid black;
+}
+h1 {
+  margin: 0;
+  padding: 0;
+}
+p {
+  max-width: 600px;
+  margin: auto;
+  font-size: small;
+  line-height: 20px;
+  padding: 10px;
+}
+#footer-header {
+  font-size: x-large;
+}
