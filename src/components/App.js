@@ -7,7 +7,7 @@ const App = () => {
   const [response, setResponse] = useState("");
 
   const getResponse = async () => {
-    const response = await funTranslatorAPI.get("/chef?text=srujana");
+    const response = await funTranslatorAPI.get("/chef?text=" + text);
     setResponse(response.data.contents.translated);
   };
 
